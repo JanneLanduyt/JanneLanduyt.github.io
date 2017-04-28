@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "work.html",
+    "currentPage": "tradition.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -34,7 +34,7 @@
       "settings": {
         "main": true,
         "title": "",
-        "meta_descr": "",
+        "meta_descr": "Janne Landuyt, Janne, Landuyt, Textile design, About, Study",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -95,7 +95,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             ".btn": {
               "font-family": "'Oxygen', sans-serif",
@@ -117,7 +117,7 @@
             "transparent": true,
             "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": false
           },
@@ -136,7 +136,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"#top\">Home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"work.html\">Work</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"ask.html\">Ask</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"#top\">Home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"work.html\">Work</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"ask.html\">Ask</a></li>"
         },
         {
           "_inherit": "header1",
@@ -247,7 +247,7 @@
     },
     "tracks.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Janne Landuyt, Textile design ",
         "order": 5
       },
       "components": [
@@ -294,7 +294,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -450,7 +450,8 @@
     },
     "weaving.html": {
       "settings": {
-        "order": 3
+        "order": 3,
+        "meta_descr": "Janne Landuyt, Textile design"
       },
       "components": [
         {
@@ -496,7 +497,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -592,7 +593,8 @@
     },
     "surface.html": {
       "settings": {
-        "order": 4
+        "order": 4,
+        "meta_descr": "Janne Landuyt, Textile design "
       },
       "components": [
         {
@@ -638,7 +640,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -784,7 +786,8 @@
     },
     "paterns.html": {
       "settings": {
-        "order": 6
+        "order": 6,
+        "meta_descr": "Janne Landuyt, Textile design "
       },
       "components": [
         {
@@ -830,7 +833,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -976,7 +979,7 @@
     },
     "work.html": {
       "settings": {
-        "meta_descr": "paterns, tracks, surface, weaving\n",
+        "meta_descr": "Janne Landuyt, Textile design, Work, Patterns, Tracks, Surface, Weaving, Timescape\n",
         "order": 2,
         "title": "work"
       },
@@ -1052,7 +1055,7 @@
             "transparent": false,
             "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": false
           },
@@ -1124,7 +1127,7 @@
             }
           },
           "title1": "Weaving",
-          "subtitle1": "experimental projects",
+          "subtitle1": "Experimental projects",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
@@ -1140,7 +1143,7 @@
             }
           },
           "title2": "Surface",
-          "subtitle2": "walking on textiles",
+          "subtitle2": "Walking on textiles",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1156,7 +1159,7 @@
             }
           },
           "title3": "Tracks",
-          "subtitle3": "landscapes of the body",
+          "subtitle3": "Landscapes of the body",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -1255,7 +1258,7 @@
             }
           },
           "title1": "Tradition",
-          "subtitle1": "of privacy and cutrains",
+          "subtitle1": "Of privacy",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -1271,7 +1274,7 @@
             }
           },
           "title2": "Pattern design",
-          "subtitle2": "",
+          "subtitle2": "The urbain landscape",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1286,8 +1289,8 @@
               "linkInNewWindow": false
             }
           },
-          "title3": "Timescap",
-          "subtitle3": "timeframes of textile",
+          "title3": "Timescape",
+          "subtitle3": "Timeframes of textile",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -1331,8 +1334,8 @@
     },
     "timescape.html": {
       "settings": {
-        "title": "Web Site Generator Title",
-        "meta_descr": "Web Site Generator Description"
+        "title": "",
+        "meta_descr": "Janne Landuyt, Textile design"
       },
       "components": [
         {
@@ -1378,7 +1381,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -1504,8 +1507,8 @@
     },
     "tradition.html": {
       "settings": {
-        "title": "Website Generator Title",
-        "meta_descr": "Website Generator Description"
+        "title": "",
+        "meta_descr": "Janne Landuyt, Textile design "
       },
       "components": [
         {
@@ -1551,7 +1554,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -1611,16 +1614,6 @@
             "paddingBottom": "3",
             "images": [
               {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/p1060047-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/p1060047-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -1629,6 +1622,16 @@
                 "image": "@PROJECT_PATH@/assets/images/p1050960-2000x2666.jpg",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18175664-1324445847609025-712176033-o-2000x2389-800x955.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18175664-1324445847609025-712176033-o-2000x2389.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": "4",
@@ -1648,7 +1651,7 @@
     "ask.html": {
       "settings": {
         "title": "",
-        "meta_descr": ""
+        "meta_descr": "Janne Landuyt, Textile design"
       },
       "components": [
         {
@@ -1705,7 +1708,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#28324e!important"
             },
             ".btn": {
               "font-family": "'Oxygen', sans-serif",
@@ -1727,7 +1730,7 @@
             "transparent": true,
             "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": false
           },
@@ -1746,7 +1749,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"#top\">Home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"work.html\">Work</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"ask.html\">Ask</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"#top\">Home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"work.html\">Work</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"ask.html\">Ask</a></li>"
         },
         {
           "_tags": [
@@ -1810,7 +1813,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>"
         }
       ]
     }
