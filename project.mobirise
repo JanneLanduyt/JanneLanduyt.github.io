@@ -1580,8 +1580,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/18196083-1324445844275692-1990274627-o-copy-800x1066.jpg",
-                "image": "@PROJECT_PATH@/assets/images/18196083-1324445844275692-1990274627-o-copy.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p1050960-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p1050960.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
