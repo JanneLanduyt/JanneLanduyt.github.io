@@ -1154,7 +1154,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/16910713-1257512334302377-1275665893-o.jpg",
+              "src": "@PROJECT_PATH@/assets/images/16910713-1257512334302377-1275665893-o-2.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1186,7 +1186,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/kleine.jpg",
+              "src": "@PROJECT_PATH@/assets/images/kleine-1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
