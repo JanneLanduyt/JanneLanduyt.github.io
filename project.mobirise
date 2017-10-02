@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "work.html",
+    "currentPage": "tradition.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -19,11 +19,12 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.8.7",
     "uniqCompNum": 55,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.3.2",
     "favicon": "",
     "noImageResize": "true",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
@@ -105,6 +106,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-x",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ffffff",
             "fontSize": "0.65",
             "fontName": {
@@ -113,13 +120,7 @@
               "css": "'Oxygen', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -158,23 +159,23 @@
           "_name": "header5",
           "_anchor": "header5-w",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/18175664-1324445847609025-712176033-o-copy.jpg",
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/21389111-1442225685831040-1330696109-o.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
             "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "Janne Landuyt",
           "text": "Student texile design located in Ghent",
@@ -196,13 +197,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 Janne Landuyt."
         },
@@ -220,28 +221,32 @@
               "color": "#000000",
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-section-text": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             }
           },
           "_anchor": "header2-y",
           "_params": {
-            "imageSize": "42",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": "37",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/22119655-1460592720661003-1414177674-o.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
@@ -266,7 +271,7 @@
             }
           },
           "title": "ABOUT",
-          "text": "<p>°97, Belgium</p><p><b>STUDY</b>&nbsp;<br>Visual arts, textile design at Luca school of arts, Ghent.&nbsp;</p><br><p><br></p><p>&nbsp;<br><br></p>",
+          "text": "<p>°97, Belgium</p><p><b>STUDY</b>&nbsp;<br>Visual arts, textile design at Luca school of arts, Ghent.</p><b>Internship</b><br>3 months at Monsieur Tricot and Hilde Frunt in the center of Antwerp. Specializing in knitwear production and design.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
@@ -274,7 +279,8 @@
     "tracks.html": {
       "settings": {
         "meta_descr": "Janne Landuyt, Textile design ",
-        "order": 5
+        "order": 5,
+        "title": "tracks"
       },
       "components": [
         {
@@ -340,17 +346,17 @@
           "_name": "menu",
           "_anchor": "menu-k",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -389,10 +395,10 @@
           "_name": "header3",
           "_anchor": "header3-1e",
           "_params": {
+            "showMeta": true,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Tracks",
           "meta": "Landscapes of the body"
@@ -404,8 +410,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "4",
             "paddingTop": "2",
             "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Animated",
@@ -477,14 +490,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-m",
           "articleLayout": false,
@@ -495,7 +501,8 @@
     "weaving.html": {
       "settings": {
         "order": 3,
-        "meta_descr": "Janne Landuyt, Textile design"
+        "meta_descr": "Janne Landuyt, Textile design",
+        "title": "weaving"
       },
       "components": [
         {
@@ -561,17 +568,17 @@
           "_name": "menu",
           "_anchor": "menu-o",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -610,10 +617,10 @@
           "_name": "header3",
           "_anchor": "header3-1c",
           "_params": {
+            "showMeta": true,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Weaving",
           "meta": "Experimental projects"
@@ -625,8 +632,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": false,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "2",
             "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -648,14 +662,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery2-p",
           "articleLayout": false,
@@ -666,7 +673,8 @@
     "surface.html": {
       "settings": {
         "order": 4,
-        "meta_descr": "Janne Landuyt, Textile design "
+        "meta_descr": "Janne Landuyt, Textile design ",
+        "title": "surface"
       },
       "components": [
         {
@@ -732,17 +740,17 @@
           "_name": "menu",
           "_anchor": "menu-q",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -781,10 +789,10 @@
           "_name": "header3",
           "_anchor": "header3-1d",
           "_params": {
+            "showMeta": true,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Surface",
           "meta": "Walking on textiles"
@@ -796,8 +804,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "2",
             "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -869,14 +884,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-r",
           "articleLayout": false,
@@ -954,17 +962,17 @@
           "_name": "menu",
           "_anchor": "menu-h",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1000,26 +1008,26 @@
           },
           "_anchor": "features3-i",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1131,26 +1139,26 @@
           },
           "_anchor": "features3-14",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1241,7 +1249,7 @@
     },
     "timescape.html": {
       "settings": {
-        "title": "",
+        "title": "timescape",
         "meta_descr": "Janne Landuyt, Textile design"
       },
       "components": [
@@ -1308,17 +1316,17 @@
           "_name": "menu",
           "_anchor": "menu-15",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1356,10 +1364,10 @@
           "_name": "header3",
           "_anchor": "header3-1g",
           "_params": {
+            "showMeta": true,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Timescape",
           "meta": "Timeframes of textile"
@@ -1371,8 +1379,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "2",
             "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -1424,14 +1439,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-16",
           "articleLayout": false,
@@ -1441,7 +1449,7 @@
     },
     "tradition.html": {
       "settings": {
-        "title": "",
+        "title": "tradition",
         "meta_descr": "Janne Landuyt, Textile design "
       },
       "components": [
@@ -1508,17 +1516,17 @@
           "_name": "menu",
           "_anchor": "menu-17",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1557,10 +1565,10 @@
           "_name": "header3",
           "_anchor": "header3-1h",
           "_params": {
+            "showMeta": true,
             "paddingTop": "6",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Tradition",
           "meta": "Of privacy"
@@ -1572,18 +1580,26 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "2",
             "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/p1050960-800x1066.jpg",
-                "image": "@PROJECT_PATH@/assets/images/p1050960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18818070-1351570684896541-399385568-o-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18818070-1351570684896541-399385568-o.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": true,
+                "alt": ""
               },
               {
                 "tags": "Responsive",
@@ -1595,14 +1611,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-18",
           "articleLayout": false,
@@ -1612,7 +1621,7 @@
     },
     "ask.html": {
       "settings": {
-        "title": "",
+        "title": "Ask",
         "meta_descr": "Janne Landuyt, Textile design"
       },
       "components": [
@@ -1680,6 +1689,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-10",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#ffffff",
             "fontSize": "0.65",
             "fontName": {
@@ -1688,13 +1703,7 @@
               "css": "'Oxygen', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1732,19 +1741,19 @@
           },
           "_anchor": "form1-11",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": false,
             "labelsColor": "#000000",
             "paddingTop": "4",
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": false
+            "overlayOpacity": 0.5
           },
           "title": "ASK ME",
           "subtitle": "",
@@ -1793,13 +1802,13 @@
             "paddingTop": "0",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
+            "overlayOpacity": 0.5,
             "facebook": true,
             "twitter": true,
             "google": true,
@@ -1813,7 +1822,8 @@
     "patterns.html": {
       "settings": {
         "order": 6,
-        "meta_descr": "Janne Landuyt, Textile design "
+        "meta_descr": "Janne Landuyt, Textile design ",
+        "title": "patterns"
       },
       "components": [
         {
@@ -1879,17 +1889,17 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": "1.4",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1928,10 +1938,10 @@
           "_name": "header3",
           "_anchor": "header3-1i",
           "_params": {
+            "showMeta": true,
             "paddingTop": "6",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "Pattern design",
           "meta": "The urbain landscape"
@@ -1943,8 +1953,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": false,
+            "fullWidth": false,
+            "spacing": "4",
             "paddingTop": "2",
             "paddingBottom": "2",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -1955,6 +1972,17 @@
                 "image": "@PROJECT_PATH@/assets/images/16466011-1241324442587833-1355253542-o-copy.jpg",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-8320-800x806.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-8320.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Awesome",
@@ -1974,7 +2002,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/15215727-1169988633054748-428615903-o-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/15215727-1169988633054748-428615903-o.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -2014,16 +2042,9 @@
                 "thumb": "@PROJECT_PATH@/assets/images/16492206-1241324562587821-2010889187-o-copy-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/16492206-1241324562587821-2010889187-o-copy.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery2-t",
           "articleLayout": false,

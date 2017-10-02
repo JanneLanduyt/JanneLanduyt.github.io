@@ -10,6 +10,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -507,6 +508,9 @@ h6,
 }
 #header2-y P {
   color: #000000;
+  font-family: 'Lora', serif;
+}
+#header2-y .mbr-section-text {
   font-family: 'Lora', serif;
 }
 
