@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "tradition.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -224,7 +224,8 @@
             },
             ".mbr-section-text": {
               "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#000000"
             }
           },
           "_anchor": "header2-y",
