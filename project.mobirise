@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "surface.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -816,6 +816,17 @@
             "filter": false,
             "images": [
               {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-8329-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-8329.jpg",
+                "caption": "Type caption here",
+                "active": true,
+                "alt": ""
+              },
+              {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -873,7 +884,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-5264-copy-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-5264-copy.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
