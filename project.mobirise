@@ -272,7 +272,7 @@
             }
           },
           "title": "ABOUT",
-          "text": "<p>°97, Belgium</p><p><b>STUDY</b>&nbsp;<br>Visual arts, textile design at Luca school of arts, Ghent.</p><b>Internship</b><br>3 months at Monsieur Tricot and Hilde Frunt in the center of Antwerp. Specializing in knitwear production and design.",
+          "text": "<p>°97, Belgium</p><p><b>STUDY</b>&nbsp;<br>Visual arts, textile design at Luca school of arts, Ghent.</p><b>INTERNSHIP</b><br>3 months at Monsieur Tricot and Hilde Frunt in the center of Antwerp. Specializing in knitwear production and design.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
@@ -1043,14 +1043,13 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/img-4580-copy-2.jpg",
+              "src": "@PROJECT_PATH@/assets/images/22425850-1470267983026810-2017515457-o.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "weaving.html",
               "alt": "",
-              "title": "weavings",
-              "linkInNewWindow": false
+              "title": "weavings"
             }
           },
           "title1": "Weaving",
@@ -1059,14 +1058,13 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/img-5264-copy-1.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-5264.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "surface.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "title2": "Surface",
@@ -1075,14 +1073,13 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/12773090-1243141972379755-259885090-o.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-5912.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "tracks.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "title3": "Tracks",
@@ -1174,14 +1171,13 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/16910713-1257512334302377-1275665893-o-2.jpg",
+              "src": "@PROJECT_PATH@/assets/images/18818070-1351570684896541-399385568-o-1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "tradition.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "title1": "Tradition",
@@ -1190,14 +1186,13 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/patroon63-1.jpg",
+              "src": "@PROJECT_PATH@/assets/images/16466011-1241324442587833-1355253542-o.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "patterns.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "title2": "Pattern design",
@@ -1206,14 +1201,13 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/kleine-2.jpg",
+              "src": "@PROJECT_PATH@/assets/images/15215727-1169988633054748-428615903-o-1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "timescape.html",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "title3": "Timescape",
@@ -1222,10 +1216,13 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "src": "@PROJECT_PATH@/assets/images/22449199-1470267999693475-1661269865-o.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "title4": "Unlimited Sites",
